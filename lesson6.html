@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Navigation Bars and Carousel</title>
+    <link rel="icon" href="image/logos2.jpg">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="css/navcss.css">
+    <script src="bootstrap/js/jquery-3.6.0.js"></script>
+    <script src="bootstrap/js/popper.min.js"></script>
+    <script src="bootstrap/js/bootstrap.js"></script>
+</head>
+<body>
+<nav class="navbar navbar-expand-sm  navbar-dark fixed-top" style="background: darkblue">
+    <!-- Brand -->
+    <a class="navbar-brand" href="#">
+        <img src="image/logos2.jpg" alt="logo" width="50px" height="50px">
+    </a>
+    <!-- Toggler/collapsibe Button -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <!-- Links -->
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">About us</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Our partners</a>
+            </li>
+
+            <!-- Dropdown -->
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                    Dropdown link
+                </a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">computer and computer accesories</a>
+                    <a class="dropdown-item" href="#">Computer maintenance</a>
+                    <a class="dropdown-item" href="#">Computer networking</a>
+                    <a class="dropdown-item" href="#">CCTV installation</a>
+                    <a class="dropdown-item" href="#">software development</a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Clintele</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Gallery</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Careers</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">contact us</a>
+            </li>
+        </ul>
+        <form class="form-inline" action="/action_page.php">
+            <input class="form-control mr-sm-2" type="text" placeholder="Search">
+            <button class="btn btn-primary" type="submit">Search</button>
+        </form>
+    </div>
+</nav>
+<div id="demo" class="carousel slide" data-ride="carousel">
+
+    <!-- Indicators -->
+    <ul class="carousel-indicators">
+        <li data-target="#demo" data-slide-to="0" class="active"></li>
+        <li data-target="#demo" data-slide-to="1"></li>
+        <li data-target="#demo" data-slide-to="2"></li>
+        <li data-target="#demo" data-slide-to="4"></li>
+        <li data-target="#demo" data-slide-to="5"></li>
+    </ul>
+
+    <!-- The slideshow -->
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="image/slides/slide2.jpg" alt="first slide" width="100%" height="650">
+            <div class="carousel-caption">
+                <h3>Tech Training</h3>
+                <hr>
+                <p class="text justify"><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias animi deserunt dolor doloremque eius eos fugiat, illo incidunt neque nihil nisi officiis quibusdam quos ratione recusandae reiciendis repellendus sequi voluptatem!</span><span>Aperiam distinctio doloribus impedit laborum obcaecati porro praesentium quis rem similique, ullam! Aliquam assumenda debitis dicta est hic illo, ipsum laboriosam maiores molestiae mollitia necessitatibus reiciendis sapiente temporibus totam, ut.</span><span>Aliquid architecto assumenda at autem cumque debitis doloremque doloribus ducimus earum eum explicabo illum in inventore ipsam necessitatibus nesciunt numquam obcaecati pariatur perferendis porro praesentium reprehenderit sapiente, tenetur veniam, voluptatem.</span>
+                </p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="image/slides/slide2.jpg" alt="second slide" width="100%" height="650">
+            <div class="carousel-caption">
+                <h3>Solution expert</h3>
+                <hr>
+                <p class="text justify"><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias animi deserunt dolor doloremque eius eos fugiat, illo incidunt neque nihil nisi officiis quibusdam quos ratione recusandae reiciendis repellendus sequi voluptatem!</span><span>Aperiam distinctio doloribus impedit laborum obcaecati porro praesentium quis rem similique, ullam! Aliquam assumenda debitis dicta est hic illo, ipsum laboriosam maiores molestiae mollitia necessitatibus reiciendis sapiente temporibus totam, ut.</span><span>Aliquid architecto assumenda at autem cumque debitis doloremque doloribus ducimus earum eum explicabo illum in inventore ipsam necessitatibus nesciunt numquam obcaecati pariatur perferendis porro praesentium reprehenderit sapiente, tenetur veniam, voluptatem.</span>
+                </p>
+            </div>
+            <div class="carousel-item">
+                <img src="image/slides/slide2.jpg" alt="Third slide" width="100%" height="650">
+                <div class="carousel-caption">
+                    <h3>Affordable prices</h3>
+                    <hr>
+                    <p class="text justify"><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias animi deserunt dolor doloremque eius eos fugiat, illo incidunt neque nihil nisi officiis quibusdam quos ratione recusandae reiciendis repellendus sequi voluptatem!</span><span>Aperiam distinctio doloribus impedit laborum obcaecati porro praesentium quis rem similique, ullam! Aliquam assumenda debitis dicta est hic illo, ipsum laboriosam maiores molestiae mollitia necessitatibus reiciendis sapiente temporibus totam, ut.</span><span>Aliquid architecto assumenda at autem cumque debitis doloremque doloribus ducimus earum eum explicabo illum in inventore ipsam necessitatibus nesciunt numquam obcaecati pariatur perferendis porro praesentium reprehenderit sapiente, tenetur veniam, voluptatem.</span>
+                    </p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="image/slides/slide2.jpg" alt="Forth slide" width="100%" height="650">
+                <div class="carousel-caption">
+                    <h3>Innovations</h3>
+                    <hr>
+                    <p class="text justify"><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias animi deserunt dolor doloremque eius eos fugiat, illo incidunt neque nihil nisi officiis quibusdam quos ratione recusandae reiciendis repellendus sequi voluptatem!</span><span>Aperiam distinctio doloribus impedit laborum obcaecati porro praesentium quis rem similique, ullam! Aliquam assumenda debitis dicta est hic illo, ipsum laboriosam maiores molestiae mollitia necessitatibus reiciendis sapiente temporibus totam, ut.</span><span>Aliquid architecto assumenda at autem cumque debitis doloremque doloribus ducimus earum eum explicabo illum in inventore ipsam necessitatibus nesciunt numquam obcaecati pariatur perferendis porro praesentium reprehenderit sapiente, tenetur veniam, voluptatem.</span>
+                    </p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="image/slides/slide2.jpg" alt="first slide" width="100%" height="650">
+                <div class="carousel-caption">
+                    <h3>Technicals</h3>
+                    <hr>
+                    <p class="text justify"><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias animi deserunt dolor doloremque eius eos fugiat, illo incidunt neque nihil nisi officiis quibusdam quos ratione recusandae reiciendis repellendus sequi voluptatem!</span><span>Aperiam distinctio doloribus impedit laborum obcaecati porro praesentium quis rem similique, ullam! Aliquam assumenda debitis dicta est hic illo, ipsum laboriosam maiores molestiae mollitia necessitatibus reiciendis sapiente temporibus totam, ut.</span><span>Aliquid architecto assumenda at autem cumque debitis doloremque doloribus ducimus earum eum explicabo illum in inventore ipsam necessitatibus nesciunt numquam obcaecati pariatur perferendis porro praesentium reprehenderit sapiente, tenetur veniam, voluptatem.</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Left and right controls -->
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </a>
+    </div>
+</div>
+<nav class="navbar navbar-expand-sm  navbar-dark " style="background: darkblue">
+    <div class="inner-footer">
+        <div class="row">
+            <div class="col-md-3">
+                <h5 class="footer heading">About Us</h5>
+                <hr class="footerHr">
+                <p class="footer-paragraph">Best dealers in town Best dealers in townBest dealers in townBest dealers in town
+                    Best dealers in townBest dealers in town </p>
+                <div class="buttons">
+                    <a class="btn btn-success" href="#">Read more</a>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <h5 class="footer heading">Our products</h5>
+                <hr class="footerHr">
+                <p class="footer-paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium ad adipisci aliquam autem corporis delectus dolore eum fugiat illum, laborum maiores nihil nisi, obcaecati odio omnis quam reiciendis velit voluptatum!
+                </p>
+                <div class="bottons">
+                    <a class="btn btn-warning" href="#">Read more</a>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <h5 class="footer heading">Location</h5>
+                <hr class="footerHr">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.819633227682!2d36.819205113957885!3d-1.2819906359811344!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f118a7755ea71%3A0x697a8fe13df19391!2sMoi%20University-Bazaar%20Plaza!5e0!3m2!1sen!2ske!4v1645694908890!5m2!1sen!2ske"
+                        width="100%" height="200" style="border:2px solid black; border-radius: 15px;"
+                        allowfullscreen="" loading="lazy"></iframe>
+            </div>
+            <div class="col-md-3">
+                <h5 class="footer heading">Contact us</h5>
+                <hr class="footerHr">
+                <p class="footer-paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, accusamus
+                    aperiam asperiores at
+                    dolor dolores error esse eveniet itaque laudantium libero molestiae, optio quidem quisquam
+                    tempore! Adipisci esse explicabo tempora!
+                </p>
+                <div class="bottons">
+                    <a class="btn btn-warning" href="#">Read more</a>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</nav>
+</nav>
+
+</body>
+</html>

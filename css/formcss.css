@@ -1,0 +1,23 @@
+form{
+    background: darkblue;
+    padding: 15px;
+    border-radius: 15px;
+}
+input,textarea,button{
+    margin: 8px 0;
+}
+.buttons{
+    width: 100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+body{
+    background:darkblue;
+}
+h2,h5{
+    color:lightblue;
+}
+hr{
+    border:3px solid darkblue;
+}
